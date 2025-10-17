@@ -1,4 +1,6 @@
-
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
 
 /* achtergrond */
 header {
@@ -22,6 +24,7 @@ nav ul li a {
     font-weight: bold;
     padding: 10px 20px;
     display: block;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 nav ul li a:hover {
@@ -39,6 +42,7 @@ nav ul li a:hover {
     box-sizing: border-box;
     background-color: rgba(14, 82, 177, 0.8); ;
     color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .container {
@@ -91,10 +95,26 @@ nav ul li a:hover {
     margin-left: 75px;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.7);
-
 }
 
 /* persoonlijke interesses */
+
+#interesses_tabel {
+    margin-left: 42%;
+    margin-top: 75px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+#interesses_tabel th,
+#interesses_tabel td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+
+
 
 .blok {
     display: flex;
@@ -104,11 +124,100 @@ nav ul li a:hover {
 }
 
 #fotofh5 {
-    width: 750px;
+    width: 800px;
     height: 500px;
 }
 
 #tekstfh5 {
-    max-width: 600px;      
+    max-width: 600px; 
+    font-size: 20;    
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Contact*/
+
+.contact-flex {
+    display: flex;        
+    align-items: center;      
+    gap: 40px;               
+    justify-content: center; 
+    padding: 20px;
+    color: #fff;           
+}
+
+
+.contact-info {
+    max-width: 500px;       
+    line-height: 1.5;       
+}
+
+
+.contact-flex .foto {
+    width: 500px;            
+    height: 250px;             
+    border-radius: 10px;
+    margin-left: 150px; 
+    background-color: rgba(0, 0, 0, 0.7);   
+}
+
+.contact-container {
+    width: 650px;
+    border: solid black 5px;
+    border-radius:10%;
+    margin-top: 20px;
+    justify-self:center;
+    margin-bottom: 150px;
+    color: #fff;
+}
+
+.contact-title {
+    text-align: center;
+    border-bottom: solid 5px black;
+    margin: 0;
+}
+
+
+.input_text {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.data{
+    display:grid;
+    margin:10px;
+    width: px;
+}
+
+textarea{
+    margin-top:10%;
+    height: 100px;
+}
+
+.verzenden{
+    background-color: #adf2ad;
+    height:40px;
+    width:100px;
+    position:relative;
+    left:36%;
+    border-radius:15%;
+    margin-bottom: 10px;
+}
+
+#contact_text {
+    text-align: center;
+}

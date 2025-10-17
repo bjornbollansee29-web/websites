@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intresses</title>
     <link rel="stylesheet" href="CSS/css.css">
+    <link rel="stylesheet" href="CSS/contact.css">
 </head>
 <body>
      <section id="home" class="section home">
@@ -24,8 +25,44 @@
     </header>
     </section>
 
-    <h1>TEST</h1>
-    <p>bing bong bash</p>
+
+   <section id="contact_text" class="contact-section">
+    <div class="contact-flex">
+        <div class="contact-info">
+            <h2>Contacteer mij!</h2>
+            <p>Als u geïnteresseerd bent kunt mij via meerdere kanalen contacteren:</p>
+            <p>Mijn email: 
+                <a href="mailto:bjornbollansee29@gmail.com">bjornbollansee29@gmail.com</a>
+            </p>
+            <p>Mijn LinkedIn: 
+                <a href="https://www.linkedin.com/in/bjorn-bollans%C3%A9e-43b75b388/">https://www.linkedin.com/in/bjorn-bollans%C3%A9e-43b75b388/</a>
+            </p>
+        </div>
+        <img class="foto" src="IMG/contact.foto.png" alt="Contact foto">
+    </div>
+    </section>
+
+
+ <section style="display:grid;">
+    <form class="contact-container">
+        <h1 class="contact-title">Contact</h1>
+        <section class="input_text">
+        
+            <section class="data">
+                <label for="voornaam">Voornaam:</label>
+                <input type="text" id="voornaam">
+                <label for="achternaam">Achternaam:</label>
+                <input type="text" id="achternaam" name="achternaam">
+                <label for="email">E-Mail:</label>
+                <input id="email" type="email" required/>
+                <label for="onderwerp">Onderwerp:</label>
+                <input type="text" id="onderwerp" name="onderwerp">
+                <textarea placeholder="extra info"></textarea>
+        </section>
+        </section>
+        <button class="verzenden">Verzenden</button>
+    </form>
+    </section>
 
     
 
